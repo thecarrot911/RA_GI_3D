@@ -1,23 +1,23 @@
 Using pre-set license
 Built from '2022.3/release' branch; Version is '2022.3.5f1 (9674261d40ee) revision 9860134'; Using compiler version '192829333'; Build Type 'Release'
-OS: 'Windows 10  (10.0.19045) 64bit Professional' Language: 'es' Physical Memory: 16249 MB
+OS: 'Windows 10  (10.0.19045) 64bit CoreSingleLanguage' Language: 'es' Physical Memory: 16147 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
 
 COMMAND LINE ARGUMENTS:
-D:\ProgramasProgramar\Unity Editor\2022.3.5f1\Editor\Unity.exe
+C:\Program Files\Unity\Hub\Editor\2022.3.5f1\Editor\Unity.exe
 -adb2
 -batchMode
 -noUpm
 -name
 AssetImportWorker0
 -projectPath
-C:/Users/gaboe/OneDrive/Escritorio/Proyectos Personales/RA_GI_3D
+C:/Users/caqui/Proyectos Git/RA_GI_3D
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-61283
-Successfully changed project path to: C:/Users/gaboe/OneDrive/Escritorio/Proyectos Personales/RA_GI_3D
-C:/Users/gaboe/OneDrive/Escritorio/Proyectos Personales/RA_GI_3D
+51402
+Successfully changed project path to: C:/Users/caqui/Proyectos Git/RA_GI_3D
+C:/Users/caqui/Proyectos Git/RA_GI_3D
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
     "memorysetup-bucket-allocator-granularity=16"
     "memorysetup-bucket-allocator-bucket-count=8"
@@ -49,64 +49,69 @@ C:/Users/gaboe/OneDrive/Escritorio/Proyectos Personales/RA_GI_3D
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [17052] Host "[IP] 192.168.1.87 [Port] 0 [Flags] 2 [Guid] 2003353688 [EditorId] 2003353688 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-86D8R87) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [12744] Host "[IP] 192.168.1.113 [Port] 0 [Flags] 2 [Guid] 1928774777 [EditorId] 1928774777 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-QI58GKFM) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [17052] Host "[IP] 192.168.1.87 [Port] 0 [Flags] 2 [Guid] 2003353688 [EditorId] 2003353688 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-86D8R87) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [12744] Host "[IP] 192.168.1.113 [Port] 0 [Flags] 2 [Guid] 1928774777 [EditorId] 1928774777 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-QI58GKFM) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
-Refreshing native plugins compatible for Editor in 22.01 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 8.89 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2022.3.5f1 (9674261d40ee)
-[Subsystems] Discovering subsystems at path D:/ProgramasProgramar/Unity Editor/2022.3.5f1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path C:/Users/gaboe/OneDrive/Escritorio/Proyectos Personales/RA_GI_3D/Assets
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.5f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/caqui/Proyectos Git/RA_GI_3D/Assets
 GfxDevice: creating device client; threaded=0; jobified=0
 Direct3D:
     Version:  Direct3D 11.0 [level 11.1]
-    Renderer: NVIDIA GeForce GTX 1050 Ti (ID=0x1c82)
+    Renderer: NVIDIA GeForce RTX 3050 Ti Laptop GPU (ID=0x25a0)
     Vendor:   NVIDIA
-    VRAM:     4017 MB
-    Driver:   31.0.15.3640
+    VRAM:     3976 MB
+    Driver:   31.0.15.3667
 Initialize mono
-Mono path[0] = 'D:/ProgramasProgramar/Unity Editor/2022.3.5f1/Editor/Data/Managed'
-Mono path[1] = 'D:/ProgramasProgramar/Unity Editor/2022.3.5f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
-Mono config path = 'D:/ProgramasProgramar/Unity Editor/2022.3.5f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56528
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.5f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.5f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.5f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56172
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
-Register platform support module: D:/ProgramasProgramar/Unity Editor/2022.3.5f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.010786 seconds.
-- Loaded All Assemblies, in  0.964 seconds
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.5f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.5f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.5f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.018325 seconds.
+- Loaded All Assemblies, in  0.438 seconds
 Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Android Extension - Scanning For ADB Devices 439 ms
+Native extension for WebGL target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.902 seconds
-Domain Reload Profiling: 1866ms
-	BeginReloadAssembly (175ms)
+- Finished resetting the current domain, in  0.901 seconds
+Domain Reload Profiling: 1338ms
+	BeginReloadAssembly (114ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (1ms)
-	RebuildCommonClasses (88ms)
-	RebuildNativeTypeToScriptingClass (52ms)
-	initialDomainReloadingComplete (148ms)
-	LoadAllAssembliesAndSetupDomain (499ms)
-		LoadAssemblies (174ms)
+	RebuildCommonClasses (39ms)
+	RebuildNativeTypeToScriptingClass (10ms)
+	initialDomainReloadingComplete (84ms)
+	LoadAllAssembliesAndSetupDomain (188ms)
+		LoadAssemblies (113ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (489ms)
-			TypeCache.Refresh (485ms)
-				TypeCache.ScanAssembly (456ms)
-			ScanForSourceGeneratedMonoScriptInfo (0ms)
-			ResolveRequiredComponents (4ms)
-	FinalizeReload (903ms)
+		AnalyzeDomain (179ms)
+			TypeCache.Refresh (177ms)
+				TypeCache.ScanAssembly (157ms)
+			ScanForSourceGeneratedMonoScriptInfo (1ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (902ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (730ms)
+		SetupLoadedEditorAssemblies (818ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (21ms)
-			SetLoadedEditorAssemblies (22ms)
+			InitializePlatformSupportModulesInManaged (598ms)
+			SetLoadedEditorAssemblies (4ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (20ms)
-			ProcessInitializeOnLoadAttributes (456ms)
-			ProcessInitializeOnLoadMethodAttributes (210ms)
+			BeforeProcessingInitializeOnLoad (2ms)
+			ProcessInitializeOnLoadAttributes (138ms)
+			ProcessInitializeOnLoadMethodAttributes (75ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -114,51 +119,55 @@ Domain Reload Profiling: 1866ms
 ========================================================================
 Worker process is ready to serve import requests
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  2.038 seconds
-Refreshing native plugins compatible for Editor in 11.57 ms, found 3 plugins.
+Symbol file LoadedFromMemory doesn't match image C:\Users\caqui\Proyectos Git\RA_GI_3D\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\caqui\Proyectos Git\RA_GI_3D\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  0.849 seconds
+Refreshing native plugins compatible for Editor in 3.26 ms, found 3 plugins.
 Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.551 seconds
-Domain Reload Profiling: 3585ms
-	BeginReloadAssembly (350ms)
+- Finished resetting the current domain, in  0.567 seconds
+Domain Reload Profiling: 1414ms
+	BeginReloadAssembly (183ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (16ms)
+		DisableScriptedObjects (7ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (49ms)
-	RebuildCommonClasses (86ms)
-	RebuildNativeTypeToScriptingClass (27ms)
-	initialDomainReloadingComplete (129ms)
-	LoadAllAssembliesAndSetupDomain (1441ms)
-		LoadAssemblies (702ms)
+		CreateAndSetChildDomain (36ms)
+	RebuildCommonClasses (39ms)
+	RebuildNativeTypeToScriptingClass (12ms)
+	initialDomainReloadingComplete (49ms)
+	LoadAllAssembliesAndSetupDomain (564ms)
+		LoadAssemblies (301ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (921ms)
-			TypeCache.Refresh (871ms)
-				TypeCache.ScanAssembly (842ms)
-			ScanForSourceGeneratedMonoScriptInfo (40ms)
-			ResolveRequiredComponents (9ms)
-	FinalizeReload (1551ms)
+		AnalyzeDomain (335ms)
+			TypeCache.Refresh (318ms)
+				TypeCache.ScanAssembly (300ms)
+			ScanForSourceGeneratedMonoScriptInfo (14ms)
+			ResolveRequiredComponents (3ms)
+	FinalizeReload (567ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (1100ms)
+		SetupLoadedEditorAssemblies (376ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (12ms)
-			SetLoadedEditorAssemblies (18ms)
+			InitializePlatformSupportModulesInManaged (28ms)
+			SetLoadedEditorAssemblies (4ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (152ms)
-			ProcessInitializeOnLoadAttributes (830ms)
-			ProcessInitializeOnLoadMethodAttributes (60ms)
-			AfterProcessingInitializeOnLoad (26ms)
-			EditorAssembliesLoaded (2ms)
+			BeforeProcessingInitializeOnLoad (64ms)
+			ProcessInitializeOnLoadAttributes (253ms)
+			ProcessInitializeOnLoadMethodAttributes (19ms)
+			AfterProcessingInitializeOnLoad (8ms)
+			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (39ms)
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.13 seconds
-Refreshing native plugins compatible for Editor in 9.51 ms, found 3 plugins.
+		AwakeInstancesAfterBackupRestoration (6ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
+Refreshing native plugins compatible for Editor in 4.10 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3066 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 31 unused Assets / (56.4 KB). Loaded Objects now: 3530.
-Memory consumption went from 116.2 MB to 116.1 MB.
-Total: 5.813800 ms (FindLiveObjects: 0.642400 ms CreateObjectMapping: 0.485700 ms MarkObjects: 4.408000 ms  DeleteObjects: 0.276800 ms)
+Unloading 3067 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 31 unused Assets / (56.4 KB). Loaded Objects now: 3534.
+Memory consumption went from 122.1 MB to 122.1 MB.
+Total: 3.641300 ms (FindLiveObjects: 0.261500 ms CreateObjectMapping: 0.084700 ms MarkObjects: 3.179400 ms  DeleteObjects: 0.114300 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
@@ -173,100 +182,132 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 164308.254452 seconds.
-  path: Assets/Prefabs/shogun_fb Variant.prefab
-  artifactKey: Guid(088d3bcad4244d247a8c35be5cef0421) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/shogun_fb Variant.prefab using Guid(088d3bcad4244d247a8c35be5cef0421) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '607e3de5c70df5fb5f824cd7a97e1146') in 0.582173 seconds
+  Time since last request: 80672.979138 seconds.
+  path: Assets/Characters/ganyu/ganyu_blend.fbx
+  artifactKey: Guid(5c497d32868bc374e9395eea549fee05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/ganyu/ganyu_blend.fbx using Guid(5c497d32868bc374e9395eea549fee05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '21174bcaea04cccc883e323858beda87') in 0.385031 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1897
+Number of asset objects unloaded after import = 871
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000037 seconds.
+  Time since last request: 0.000042 seconds.
+  path: Assets/Characters/ganyu
+  artifactKey: Guid(fa020c32a70b06648b4b58af549e5523) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/ganyu using Guid(fa020c32a70b06648b4b58af549e5523) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f24e3c0e91745a2733dee018fae4d207') in 0.000740 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 18.026373 seconds.
+  path: Assets/Characters/ganyu/materials
+  artifactKey: Guid(6f6bf007cf0245f48a52c7e315c399b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/ganyu/materials using Guid(6f6bf007cf0245f48a52c7e315c399b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '78b6058bbd5414539e00ef40d31ce74f') in 0.001138 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.062274 seconds.
+  path: Assets/Characters/ganyu/materials/Cara.mat
+  artifactKey: Guid(847698621c4fac94f8d4adef8509f358) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/ganyu/materials/Cara.mat using Guid(847698621c4fac94f8d4adef8509f358) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd72f50df6165f2cf8ec7844268f323c0') in 0.028682 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Characters/ganyu/materials/Ropa.mat
+  artifactKey: Guid(853c3374fac20144889eac0384b4d4f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/ganyu/materials/Ropa.mat using Guid(853c3374fac20144889eac0384b4d4f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b23af1c859a24fa2e06f721e5a6e5473') in 0.040332 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/Characters/ganyu/materials/Pelo.mat
+  artifactKey: Guid(23a12171cec2fef4b87fe967d275e505) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/ganyu/materials/Pelo.mat using Guid(23a12171cec2fef4b87fe967d275e505) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '16e26ac2e84ad8a48ec633b1f848ef3b') in 0.027548 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Characters/ganyu/materials/Detalles.mat
+  artifactKey: Guid(a8110276ffe1cbe4287ed6240cfb3079) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/ganyu/materials/Detalles.mat using Guid(a8110276ffe1cbe4287ed6240cfb3079) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4a71d4d6ab954ed2c973b829f2e7d093') in 0.029913 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 8.523111 seconds.
+  path: Assets/Characters/Animation/Female Laying Pose.fbx
+  artifactKey: Guid(0d28cccfce2b34d4f909b4378ec8897f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/Animation/Female Laying Pose.fbx using Guid(0d28cccfce2b34d4f909b4378ec8897f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0436e8c4d6447dcf33f02393648474af') in 0.275344 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 147
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/Characters/Animation/Female Walk.fbx
+  artifactKey: Guid(2c2fd5bccf45f5545af8b2eedbc25115) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/Animation/Female Walk.fbx using Guid(2c2fd5bccf45f5545af8b2eedbc25115) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '652fcb62f90409330bdf075b4741ca36') in 0.066276 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 147
+========================================================================
+Received Import Request.
+  Time since last request: 38.707588 seconds.
   path: Assets/Prefabs/barbara_summ Variant.prefab
   artifactKey: Guid(07da3ee02fedb5743b86a60d6b7b3fa6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/barbara_summ Variant.prefab using Guid(07da3ee02fedb5743b86a60d6b7b3fa6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a108b29d96befc4db2151e032fb33b24') in 0.389801 seconds
+Start importing Assets/Prefabs/barbara_summ Variant.prefab using Guid(07da3ee02fedb5743b86a60d6b7b3fa6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '229c1898255b38619799ce1cca01d6f2') in 0.189896 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 1495
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000054 seconds.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Prefabs/shogun_fb Variant.prefab
+  artifactKey: Guid(088d3bcad4244d247a8c35be5cef0421) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/shogun_fb Variant.prefab using Guid(088d3bcad4244d247a8c35be5cef0421) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd73703af9af2295d57fbe35bb9f42afb') in 0.181371 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1900
+========================================================================
+Received Import Request.
+  Time since last request: 0.000116 seconds.
+  path: Assets/Characters/raiden/shogun_fb.fbx
+  artifactKey: Guid(4f14bd01420a5d4418a198e3fa7dc3c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/raiden/shogun_fb.fbx using Guid(4f14bd01420a5d4418a198e3fa7dc3c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2929008503627a6a096ba13c142fa7f8') in 0.210435 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 959
+========================================================================
+Received Import Request.
+  Time since last request: 0.000097 seconds.
   path: Assets/Prefabs/ganyu_blend Variant.prefab
   artifactKey: Guid(d8d3f6e8776038943a623cab4ddd6157) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/ganyu_blend Variant.prefab using Guid(d8d3f6e8776038943a623cab4ddd6157) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fcb01a81d4357fced3282d285ed0cf7b') in 0.202797 seconds
+Start importing Assets/Prefabs/ganyu_blend Variant.prefab using Guid(d8d3f6e8776038943a623cab4ddd6157) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8143b1dc2067632becd24378923dca11') in 0.105993 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1727
+Number of asset objects unloaded after import = 1730
 ========================================================================
 Received Import Request.
-  Time since last request: 0.885405 seconds.
-  path: Assets/Characters/yoimiya
-  artifactKey: Guid(b2d56559e0ea0bb4db5fff0efee14b75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Characters/yoimiya using Guid(b2d56559e0ea0bb4db5fff0efee14b75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2219e09543adf74b7ddc36f3a64aa1e7') in 0.000963 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 0.039897 seconds.
+  Time since last request: 1.501821 seconds.
   path: Assets/Characters/yoimiya/yoimiya_test.fbx
   artifactKey: Guid(d878da9d2ff3ec74b840171e240c3f07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Characters/yoimiya/yoimiya_test.fbx using Guid(d878da9d2ff3ec74b840171e240c3f07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '58c066456c6ff259435205d1d0c4bc33') in 0.963157 seconds
+Start importing Assets/Characters/yoimiya/yoimiya_test.fbx using Guid(d878da9d2ff3ec74b840171e240c3f07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a27dccc53ecaf362a0259ac2a66050ab') in 0.499906 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 1014
 ========================================================================
 Received Import Request.
-  Time since last request: 112.877713 seconds.
-  path: Assets/Characters/raiden
-  artifactKey: Guid(ff26ba67ac04b0840be57378f1bfd5c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Characters/raiden using Guid(ff26ba67ac04b0840be57378f1bfd5c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4ae40e375188831909079793d11ddda2') in 0.001039 seconds
+  Time since last request: 23.483926 seconds.
+  path: Assets/Characters/Animation
+  artifactKey: Guid(4fe4536d6016d29478e72f2545dad885) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/Animation using Guid(4fe4536d6016d29478e72f2545dad885) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '004d9318aa8d2d583b84518114b9f8d4') in 0.000847 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 0
 ========================================================================
-Received Import Request.
-  Time since last request: 0.062828 seconds.
-  path: Assets/Characters/raiden/shogun_fb.fbx
-  artifactKey: Guid(4f14bd01420a5d4418a198e3fa7dc3c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Characters/raiden/shogun_fb.fbx using Guid(4f14bd01420a5d4418a198e3fa7dc3c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3f1232b50c42c20c0433bdc88ff70bbe') in 0.386956 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 957
-========================================================================
-Received Import Request.
-  Time since last request: 10.056742 seconds.
-  path: Assets/Characters/Animation/Female Laying Pose.fbx
-  artifactKey: Guid(0d28cccfce2b34d4f909b4378ec8897f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Characters/Animation/Female Laying Pose.fbx using Guid(0d28cccfce2b34d4f909b4378ec8897f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd36dfd28b4ea42a92bdbb2dff8ad0798') in 0.169525 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 147
-========================================================================
-Received Import Request.
-  Time since last request: 0.001331 seconds.
-  path: Assets/Characters/Animation/Female Walk.fbx
-  artifactKey: Guid(2c2fd5bccf45f5545af8b2eedbc25115) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Characters/Animation/Female Walk.fbx using Guid(2c2fd5bccf45f5545af8b2eedbc25115) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aac243604eea860751f5646e0c2cde14') in 0.248838 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 147
-========================================================================
-Received Import Request.
-  Time since last request: 8.363579 seconds.
-  path: Assets/Characters/barbara_summ/barbara_summ.fbx
-  artifactKey: Guid(b4dd04a05620b1543ae5f9ddad77bc5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Characters/barbara_summ/barbara_summ.fbx using Guid(b4dd04a05620b1543ae5f9ddad77bc5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dc3732a3a3b899bba60dde005a0c9412') in 0.404893 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 757
-========================================================================
-Received Import Request.
-  Time since last request: 1.118942 seconds.
-  path: Assets/Characters/ganyu/ganyu_blend.fbx
-  artifactKey: Guid(5c497d32868bc374e9395eea549fee05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Characters/ganyu/ganyu_blend.fbx using Guid(5c497d32868bc374e9395eea549fee05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd692de988c405bf7cd1e227b3285e0fb') in 0.462666 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 869
-========================================================================
 Received Prepare
-Refreshing native plugins compatible for Editor in 5.39 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 5.49 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 1 unused Assets / (0.8 KB). Loaded Objects now: 3577.
-Memory consumption went from 75.6 MB to 75.6 MB.
-Total: 5.062300 ms (FindLiveObjects: 0.295400 ms CreateObjectMapping: 0.246500 ms MarkObjects: 4.492700 ms  DeleteObjects: 0.025900 ms)
+Unloading 1 unused Assets / (0.8 KB). Loaded Objects now: 3580.
+Memory consumption went from 76.5 MB to 76.5 MB.
+Total: 8.397300 ms (FindLiveObjects: 0.969900 ms CreateObjectMapping: 0.272200 ms MarkObjects: 7.060500 ms  DeleteObjects: 0.088800 ms)
 
 Prepare: number of updated asset objects reloaded= 0
 AssetImportParameters requested are different than current active one (requested -> active):
@@ -283,73 +324,313 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 786.480979 seconds.
+  Time since last request: 237.040668 seconds.
+  path: Assets/Characters/ganyu/textures/发.png
+  artifactKey: Guid(4905cbf9a3088a64da1fc4b941b5ce51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/ganyu/textures/发.png using Guid(4905cbf9a3088a64da1fc4b941b5ce51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '05db8d92a6c449a3537d06988711f3dc') in 0.030697 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.019168 seconds.
+  path: Assets/Characters/ganyu/textures/服.png
+  artifactKey: Guid(6c1c4d9c5d7447a4e97bfce0673ae2e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/ganyu/textures/服.png using Guid(6c1c4d9c5d7447a4e97bfce0673ae2e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a92411418c573b9721265782fbe8f98') in 0.047254 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Characters/ganyu/textures/肌.png
+  artifactKey: Guid(ad386329a5b8fc64e9dc24e03fafcdcd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/ganyu/textures/肌.png using Guid(ad386329a5b8fc64e9dc24e03fafcdcd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de10b51ff0bbb88332b53697aac19489') in 0.082395 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Characters/ganyu/textures/面.png
+  artifactKey: Guid(c25b92e40ec95fc4d901290490dea521) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/ganyu/textures/面.png using Guid(c25b92e40ec95fc4d901290490dea521) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '57f90cb61db3148e975a994fa878736a') in 0.033303 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 126.530799 seconds.
+  path: Assets/Characters/ganyu/ganyu_blend.fbx
+  artifactKey: Guid(5c497d32868bc374e9395eea549fee05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/ganyu/ganyu_blend.fbx using Guid(5c497d32868bc374e9395eea549fee05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '87435d9c2b5e8fdbc8b8a4745133e4d2') in 0.148698 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 871
+========================================================================
+Received Import Request.
+  Time since last request: 2.986091 seconds.
   path: Assets/Characters/ganyu/textures
   artifactKey: Guid(e1adc2246a943d840b4a475dfc8387da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Characters/ganyu/textures using Guid(e1adc2246a943d840b4a475dfc8387da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f28074f123704744af965a4985f56b3c') in 0.007097 seconds
+Start importing Assets/Characters/ganyu/textures using Guid(e1adc2246a943d840b4a475dfc8387da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '396c4c8abbcc2c66e7cf996b68f9fb58') in 0.001347 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 0
 ========================================================================
 Received Import Request.
-  Time since last request: 42.677812 seconds.
-  path: Assets/Characters/raiden/shogun_fb.fbx
-  artifactKey: Guid(4f14bd01420a5d4418a198e3fa7dc3c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Characters/raiden/shogun_fb.fbx using Guid(4f14bd01420a5d4418a198e3fa7dc3c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '39919a72156c541c409dc42415b35451') in 0.470250 seconds
+  Time since last request: 3.133433 seconds.
+  path: Assets/Characters/ganyu/textures/二重.mat
+  artifactKey: Guid(e9cabdfd85a3ec440a112759af4310ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/ganyu/textures/二重.mat using Guid(e9cabdfd85a3ec440a112759af4310ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5580de9e298c6655548990572627ad43') in 0.019880 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 959
+Number of asset objects unloaded after import = 1
 ========================================================================
 Received Import Request.
-  Time since last request: 38.935953 seconds.
-  path: Assets/Characters/raiden/shogun_fb.fbx
-  artifactKey: Guid(4f14bd01420a5d4418a198e3fa7dc3c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Characters/raiden/shogun_fb.fbx using Guid(4f14bd01420a5d4418a198e3fa7dc3c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '638d5d7ce849dbd7379db51165ce6301') in 0.338274 seconds
+  Time since last request: 0.000018 seconds.
+  path: Assets/Characters/ganyu/textures/新規.mat
+  artifactKey: Guid(a77da7887d2e1e34ab7979ce4c6f39f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/ganyu/textures/新規.mat using Guid(a77da7887d2e1e34ab7979ce4c6f39f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '661138eafa12ae3f6783840ba282d28e') in 0.030430 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 959
+Number of asset objects unloaded after import = 1
 ========================================================================
 Received Import Request.
-  Time since last request: 75.166785 seconds.
-  path: Assets/Characters/raiden/shogun_fb.fbx
-  artifactKey: Guid(4f14bd01420a5d4418a198e3fa7dc3c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Characters/raiden/shogun_fb.fbx using Guid(4f14bd01420a5d4418a198e3fa7dc3c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '18929feac397c1315017af51c3743195') in 0.607328 seconds
+  Time since last request: 0.000039 seconds.
+  path: Assets/Characters/ganyu/textures/神之眼.mat
+  artifactKey: Guid(47607e694efbd26429e7ce3e01568e5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/ganyu/textures/神之眼.mat using Guid(47607e694efbd26429e7ce3e01568e5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b565ea55dff86397a7d37c9089f0522') in 0.056112 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 959
+Number of asset objects unloaded after import = 1
 ========================================================================
 Received Import Request.
-  Time since last request: 44.514220 seconds.
-  path: Assets/Characters/raiden/shogun_fb.fbx
-  artifactKey: Guid(4f14bd01420a5d4418a198e3fa7dc3c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Characters/raiden/shogun_fb.fbx using Guid(4f14bd01420a5d4418a198e3fa7dc3c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b32032f5799d35241183effa0f2e3617') in 0.860096 seconds
+  Time since last request: 0.000069 seconds.
+  path: Assets/Characters/ganyu/textures/面1.mat
+  artifactKey: Guid(907d12357c8a00c4fa5288f8cedf12e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/ganyu/textures/面1.mat using Guid(907d12357c8a00c4fa5288f8cedf12e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2887f4345815e86415f6f3b8094b207d') in 0.275728 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 959
+Number of asset objects unloaded after import = 1
 ========================================================================
 Received Import Request.
-  Time since last request: 125.115043 seconds.
-  path: Assets/Characters/ganyu/ganyu_blend.fbx
-  artifactKey: Guid(5c497d32868bc374e9395eea549fee05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Characters/ganyu/ganyu_blend.fbx using Guid(5c497d32868bc374e9395eea549fee05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a79661c62518510d704d4c75962f5840') in 0.428529 seconds
+  Time since last request: 0.000023 seconds.
+  path: Assets/Characters/ganyu/textures/腰饰.mat
+  artifactKey: Guid(7ae45e20bcc75774b8ba799d812e8170) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/ganyu/textures/腰饰.mat using Guid(7ae45e20bcc75774b8ba799d812e8170) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa3761ddc40aaed67a3aae3ee3914d62') in 0.021999 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 871
+Number of asset objects unloaded after import = 1
 ========================================================================
 Received Import Request.
-  Time since last request: 74.319520 seconds.
-  path: Assets/Characters/ganyu/ganyu_blend.fbx
-  artifactKey: Guid(5c497d32868bc374e9395eea549fee05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Characters/ganyu/ganyu_blend.fbx using Guid(5c497d32868bc374e9395eea549fee05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8fe6bc3f4a6f8e21693382eae1e4d29d') in 0.300302 seconds
+  Time since last request: 0.000027 seconds.
+  path: Assets/Characters/ganyu/textures/睫.mat
+  artifactKey: Guid(c50aa968878afcb47babb840e7bd77e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/ganyu/textures/睫.mat using Guid(c50aa968878afcb47babb840e7bd77e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f45c7f2e9d8b1d0de7b3b6daa6eb1497') in 0.020470 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 871
+Number of asset objects unloaded after import = 1
 ========================================================================
 Received Import Request.
-  Time since last request: 40.980853 seconds.
-  path: Assets/Characters/ganyu/ganyu_blend.fbx
-  artifactKey: Guid(5c497d32868bc374e9395eea549fee05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Characters/ganyu/ganyu_blend.fbx using Guid(5c497d32868bc374e9395eea549fee05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fea55abc9f2e41fca14957aa96c65894') in 0.668467 seconds
+  Time since last request: 0.000017 seconds.
+  path: Assets/Characters/ganyu/textures/角.mat
+  artifactKey: Guid(9ac5a754d5bfb004f9c2e69feb12d513) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/ganyu/textures/角.mat using Guid(9ac5a754d5bfb004f9c2e69feb12d513) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2154b36182c910eaf787adf9df09130d') in 0.022363 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 871
+Number of asset objects unloaded after import = 1
 ========================================================================
 Received Import Request.
-  Time since last request: 6.626505 seconds.
-  path: Assets/Characters/ganyu/ganyu_blend.fbx
-  artifactKey: Guid(5c497d32868bc374e9395eea549fee05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Characters/ganyu/ganyu_blend.fbx using Guid(5c497d32868bc374e9395eea549fee05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '21e39c538adfbbec9f3c0d0fa37fd571') in 0.471981 seconds
+  Time since last request: 0.000024 seconds.
+  path: Assets/Characters/ganyu/textures/发.mat
+  artifactKey: Guid(18b2ab0e13fee2d41941f06dde341452) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/ganyu/textures/发.mat using Guid(18b2ab0e13fee2d41941f06dde341452) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c940d38e9681f14ec1940e96630e8f33') in 0.022888 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 871
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Characters/ganyu/textures/服.mat
+  artifactKey: Guid(1bb01f7412cbae941b0b58020b13522b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/ganyu/textures/服.mat using Guid(1bb01f7412cbae941b0b58020b13522b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ed4be35714efb55569a2184f9914f41c') in 0.024744 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Characters/ganyu/textures/目星.mat
+  artifactKey: Guid(8565e9a260df7cd43852f08ba67f6e84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/ganyu/textures/目星.mat using Guid(8565e9a260df7cd43852f08ba67f6e84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '719b4e44cfac3be453adacc30452f789') in 0.023057 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Characters/ganyu/textures/肌.mat
+  artifactKey: Guid(5d0b8abdae8f0a0479910e4e2901d4a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/ganyu/textures/肌.mat using Guid(5d0b8abdae8f0a0479910e4e2901d4a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '10a427c761faeb54023cf4c9d0baa57d') in 0.021064 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Characters/ganyu/textures/脸红.mat
+  artifactKey: Guid(c34a5f04866f9ec40b74f0eee50c7afe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/ganyu/textures/脸红.mat using Guid(c34a5f04866f9ec40b74f0eee50c7afe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8594ed457f349c183ea30946a4042779') in 0.026227 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Characters/ganyu/textures/目.mat
+  artifactKey: Guid(1990efeb5be3f31468d7847dc8b14241) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/ganyu/textures/目.mat using Guid(1990efeb5be3f31468d7847dc8b14241) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '41c26b01b5247828f7b5dd4658028156') in 0.022447 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Characters/ganyu/textures/裙摆.mat
+  artifactKey: Guid(b7f5a9c9218bdb846a0ccb350188417d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/ganyu/textures/裙摆.mat using Guid(b7f5a9c9218bdb846a0ccb350188417d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c93cd4e2ac5924cb84216c7bf5a4506d') in 0.025589 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Characters/ganyu/textures/口舌.mat
+  artifactKey: Guid(19d37e793a8130847b84070f5c4553b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/ganyu/textures/口舌.mat using Guid(19d37e793a8130847b84070f5c4553b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd4f7916fa6a52ef642e2c71048c9442') in 0.023822 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Characters/ganyu/textures/白目.mat
+  artifactKey: Guid(267f29cff90ff31439796832797385e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/ganyu/textures/白目.mat using Guid(267f29cff90ff31439796832797385e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1e5dccc82dadce93d671f1be1720409c') in 0.028442 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/Characters/ganyu/textures/眉.mat
+  artifactKey: Guid(69a2e9f617e287647b6def6c95e0df11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/ganyu/textures/眉.mat using Guid(69a2e9f617e287647b6def6c95e0df11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c619e1fc111b009b04a409da2b56193d') in 0.020914 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Characters/ganyu/textures/面2.mat
+  artifactKey: Guid(49a93d906dd327b4fa24fac5c0957755) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/ganyu/textures/面2.mat using Guid(49a93d906dd327b4fa24fac5c0957755) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '32a95f2667cea5cb7465a4dc782bcf9d') in 0.024774 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Characters/ganyu/textures/齿.mat
+  artifactKey: Guid(cb3d6d8d4fd8e914c91799c6e91495f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/ganyu/textures/齿.mat using Guid(cb3d6d8d4fd8e914c91799c6e91495f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8b805ce6d3101e8320fb75bf67172337') in 0.024541 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 160.049422 seconds.
+  path: Assets/Characters/raiden/Textures/刀.png
+  artifactKey: Guid(c9028cf4afc0f8844a1de4159e513e73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/raiden/Textures/刀.png using Guid(c9028cf4afc0f8844a1de4159e513e73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5e292430be5bb1232a8d670ed7e337e9') in 0.031948 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Characters/raiden/Textures/衣.png
+  artifactKey: Guid(b6d402cb16f79a64299a0da23191efa0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/raiden/Textures/衣.png using Guid(b6d402cb16f79a64299a0da23191efa0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c1e6d11f3eaa9addd6a6d454c9e5ef0') in 0.045964 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Characters/raiden/Textures/面.png
+  artifactKey: Guid(0460eb3c484a9f34f8d79d26bfa43728) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/raiden/Textures/面.png using Guid(0460eb3c484a9f34f8d79d26bfa43728) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '90e3d0295e93e0be2cdf10c6d56ecb67') in 0.041495 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Characters/raiden/Textures/发1.png
+  artifactKey: Guid(178684bca04c70b498a27704f5e11178) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/raiden/Textures/发1.png using Guid(178684bca04c70b498a27704f5e11178) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a3a22dd3b7146756df36a19d579ee54') in 0.035926 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Characters/raiden/Textures/面1.png
+  artifactKey: Guid(64565aff181c48141a214f0d0a631f3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/raiden/Textures/面1.png using Guid(64565aff181c48141a214f0d0a631f3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6caac321857a85c172c68c00059bf7b3') in 0.036698 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Characters/raiden/Textures/发.png
+  artifactKey: Guid(a6778079af3d03b4da800d9dc99f5397) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/raiden/Textures/发.png using Guid(a6778079af3d03b4da800d9dc99f5397) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c3f4721cdf06aa2dd06c6e54513203e') in 0.045972 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 2.721870 seconds.
+  path: Assets/Characters/raiden/Materials/Cara.mat
+  artifactKey: Guid(1ea9455bb8230504db6a1d303965f1ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/raiden/Materials/Cara.mat using Guid(1ea9455bb8230504db6a1d303965f1ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0345262753c57d55a4f038ce7cf4b9c7') in 0.039369 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Characters/raiden/Materials/Ropa.mat
+  artifactKey: Guid(cc76240df0dd6b243860280f1c0a4a7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/raiden/Materials/Ropa.mat using Guid(cc76240df0dd6b243860280f1c0a4a7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '065033f2404870ce209ed8bb15a77f5e') in 0.047729 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Characters/raiden/Materials/Pelo.mat
+  artifactKey: Guid(5eafcdcaff52c9541a55ed5ea660dab9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/raiden/Materials/Pelo.mat using Guid(5eafcdcaff52c9541a55ed5ea660dab9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b9bec07a4a76b2b5ad77a340575ea34c') in 0.063562 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 699.930275 seconds.
+  path: Assets/Characters
+  artifactKey: Guid(5ae44f174d5ea294089f92782a2b046e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters using Guid(5ae44f174d5ea294089f92782a2b046e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4c037ad146aab27c603aab02cc957de6') in 0.002392 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 37.218251 seconds.
+  path: Assets/Prefabs
+  artifactKey: Guid(83b880f0660ed3943ac322761605db97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs using Guid(83b880f0660ed3943ac322761605db97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c5c506784b6e2e6c95cfc103a5c05d58') in 0.000655 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.082522 seconds.
+  path: Assets/Prefabs/ganyu_blend Variant.prefab
+  artifactKey: Guid(d8d3f6e8776038943a623cab4ddd6157) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/ganyu_blend Variant.prefab using Guid(d8d3f6e8776038943a623cab4ddd6157) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b22576354b9427a8addf009fdc6c6f7f') in 0.221972 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1730
+========================================================================
+Received Import Request.
+  Time since last request: 0.000088 seconds.
+  path: Assets/Prefabs/mona Variant.prefab
+  artifactKey: Guid(59fe006b13f26df46ae6f82af2a24ae9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/mona Variant.prefab using Guid(59fe006b13f26df46ae6f82af2a24ae9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0ef591897777ae8cb04c479a519a5619') in 0.122323 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1452
+========================================================================
+Received Import Request.
+  Time since last request: 791.378163 seconds.
+  path: Assets/Prefabs/klee_fb Variant.prefab
+  artifactKey: Guid(f78a7e45eb60ae544bf6dccf44d3b640) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/klee_fb Variant.prefab using Guid(f78a7e45eb60ae544bf6dccf44d3b640) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fc152fa794ff30d47de4f11781034802') in 0.204871 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1641

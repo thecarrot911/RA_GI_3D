@@ -15,7 +15,7 @@ C:/Users/gaboe/OneDrive/Escritorio/Proyectos Personales/RA_GI_3D
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-59330
+61283
 Successfully changed project path to: C:/Users/gaboe/OneDrive/Escritorio/Proyectos Personales/RA_GI_3D
 C:/Users/gaboe/OneDrive/Escritorio/Proyectos Personales/RA_GI_3D
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -49,11 +49,11 @@ C:/Users/gaboe/OneDrive/Escritorio/Proyectos Personales/RA_GI_3D
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [7760] Host "[IP] 192.168.1.87 [Port] 0 [Flags] 2 [Guid] 3122922406 [EditorId] 3122922406 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-86D8R87) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [17052] Host "[IP] 192.168.1.87 [Port] 0 [Flags] 2 [Guid] 2003353688 [EditorId] 2003353688 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-86D8R87) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [7760] Host "[IP] 192.168.1.87 [Port] 0 [Flags] 2 [Guid] 3122922406 [EditorId] 3122922406 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-86D8R87) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [17052] Host "[IP] 192.168.1.87 [Port] 0 [Flags] 2 [Guid] 2003353688 [EditorId] 2003353688 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-86D8R87) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
-Refreshing native plugins compatible for Editor in 32.26 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 22.01 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2022.3.5f1 (9674261d40ee)
 [Subsystems] Discovering subsystems at path D:/ProgramasProgramar/Unity Editor/2022.3.5f1/Editor/Data/Resources/UnitySubsystems
@@ -69,99 +69,206 @@ Initialize mono
 Mono path[0] = 'D:/ProgramasProgramar/Unity Editor/2022.3.5f1/Editor/Data/Managed'
 Mono path[1] = 'D:/ProgramasProgramar/Unity Editor/2022.3.5f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'D:/ProgramasProgramar/Unity Editor/2022.3.5f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56448
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56528
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: D:/ProgramasProgramar/Unity Editor/2022.3.5f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.012238 seconds.
-- Loaded All Assemblies, in  0.785 seconds
+Registered in 0.010786 seconds.
+- Loaded All Assemblies, in  0.964 seconds
 Native extension for WindowsStandalone target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.740 seconds
-Domain Reload Profiling: 1529ms
-	BeginReloadAssembly (224ms)
+- Finished resetting the current domain, in  0.902 seconds
+Domain Reload Profiling: 1866ms
+	BeginReloadAssembly (175ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (1ms)
-	RebuildCommonClasses (95ms)
-	RebuildNativeTypeToScriptingClass (25ms)
-	initialDomainReloadingComplete (118ms)
-	LoadAllAssembliesAndSetupDomain (326ms)
-		LoadAssemblies (221ms)
+	RebuildCommonClasses (88ms)
+	RebuildNativeTypeToScriptingClass (52ms)
+	initialDomainReloadingComplete (148ms)
+	LoadAllAssembliesAndSetupDomain (499ms)
+		LoadAssemblies (174ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (316ms)
-			TypeCache.Refresh (315ms)
-				TypeCache.ScanAssembly (289ms)
-			ScanForSourceGeneratedMonoScriptInfo (1ms)
-			ResolveRequiredComponents (1ms)
-	FinalizeReload (741ms)
+		AnalyzeDomain (489ms)
+			TypeCache.Refresh (485ms)
+				TypeCache.ScanAssembly (456ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (4ms)
+	FinalizeReload (903ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (586ms)
+		SetupLoadedEditorAssemblies (730ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (18ms)
-			SetLoadedEditorAssemblies (18ms)
+			InitializePlatformSupportModulesInManaged (21ms)
+			SetLoadedEditorAssemblies (22ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (7ms)
-			ProcessInitializeOnLoadAttributes (420ms)
-			ProcessInitializeOnLoadMethodAttributes (122ms)
+			BeforeProcessingInitializeOnLoad (20ms)
+			ProcessInitializeOnLoadAttributes (456ms)
+			ProcessInitializeOnLoadMethodAttributes (210ms)
 			AfterProcessingInitializeOnLoad (0ms)
-			EditorAssembliesLoaded (1ms)
+			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
 		AwakeInstancesAfterBackupRestoration (0ms)
 ========================================================================
 Worker process is ready to serve import requests
 Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\gaboe\OneDrive\Escritorio\Proyectos Personales\RA_GI_3D\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image C:\Users\gaboe\OneDrive\Escritorio\Proyectos Personales\RA_GI_3D\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-- Loaded All Assemblies, in  1.688 seconds
-Refreshing native plugins compatible for Editor in 17.20 ms, found 3 plugins.
+- Loaded All Assemblies, in  2.038 seconds
+Refreshing native plugins compatible for Editor in 11.57 ms, found 3 plugins.
 Native extension for WindowsStandalone target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.947 seconds
-Domain Reload Profiling: 3630ms
-	BeginReloadAssembly (204ms)
+- Finished resetting the current domain, in  1.551 seconds
+Domain Reload Profiling: 3585ms
+	BeginReloadAssembly (350ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (8ms)
+		DisableScriptedObjects (16ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (28ms)
-	RebuildCommonClasses (53ms)
-	RebuildNativeTypeToScriptingClass (22ms)
-	initialDomainReloadingComplete (63ms)
-	LoadAllAssembliesAndSetupDomain (1340ms)
-		LoadAssemblies (647ms)
+		CreateAndSetChildDomain (49ms)
+	RebuildCommonClasses (86ms)
+	RebuildNativeTypeToScriptingClass (27ms)
+	initialDomainReloadingComplete (129ms)
+	LoadAllAssembliesAndSetupDomain (1441ms)
+		LoadAssemblies (702ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (797ms)
-			TypeCache.Refresh (750ms)
-				TypeCache.ScanAssembly (723ms)
-			ScanForSourceGeneratedMonoScriptInfo (36ms)
-			ResolveRequiredComponents (11ms)
-	FinalizeReload (1948ms)
+		AnalyzeDomain (921ms)
+			TypeCache.Refresh (871ms)
+				TypeCache.ScanAssembly (842ms)
+			ScanForSourceGeneratedMonoScriptInfo (40ms)
+			ResolveRequiredComponents (9ms)
+	FinalizeReload (1551ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (1294ms)
+		SetupLoadedEditorAssemblies (1100ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (11ms)
-			SetLoadedEditorAssemblies (9ms)
+			InitializePlatformSupportModulesInManaged (12ms)
+			SetLoadedEditorAssemblies (18ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (111ms)
-			ProcessInitializeOnLoadAttributes (1115ms)
-			ProcessInitializeOnLoadMethodAttributes (43ms)
-			AfterProcessingInitializeOnLoad (6ms)
-			EditorAssembliesLoaded (0ms)
+			BeforeProcessingInitializeOnLoad (152ms)
+			ProcessInitializeOnLoadAttributes (830ms)
+			ProcessInitializeOnLoadMethodAttributes (60ms)
+			AfterProcessingInitializeOnLoad (26ms)
+			EditorAssembliesLoaded (2ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (22ms)
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.14 seconds
-Refreshing native plugins compatible for Editor in 12.93 ms, found 3 plugins.
+		AwakeInstancesAfterBackupRestoration (39ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.13 seconds
+Refreshing native plugins compatible for Editor in 9.51 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 3066 Unused Serialized files (Serialized files now loaded: 0)
 Unloading 31 unused Assets / (56.4 KB). Loaded Objects now: 3530.
-Memory consumption went from 116.3 MB to 116.2 MB.
-Total: 8.012800 ms (FindLiveObjects: 0.507600 ms CreateObjectMapping: 0.901500 ms MarkObjects: 6.490700 ms  DeleteObjects: 0.111800 ms)
+Memory consumption went from 116.2 MB to 116.1 MB.
+Total: 5.813800 ms (FindLiveObjects: 0.642400 ms CreateObjectMapping: 0.485700 ms MarkObjects: 4.408000 ms  DeleteObjects: 0.276800 ms)
 
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 164308.254452 seconds.
+  path: Assets/Prefabs/shogun_fb Variant.prefab
+  artifactKey: Guid(088d3bcad4244d247a8c35be5cef0421) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/shogun_fb Variant.prefab using Guid(088d3bcad4244d247a8c35be5cef0421) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '607e3de5c70df5fb5f824cd7a97e1146') in 0.582173 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1897
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Prefabs/barbara_summ Variant.prefab
+  artifactKey: Guid(07da3ee02fedb5743b86a60d6b7b3fa6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/barbara_summ Variant.prefab using Guid(07da3ee02fedb5743b86a60d6b7b3fa6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a108b29d96befc4db2151e032fb33b24') in 0.389801 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1495
+========================================================================
+Received Import Request.
+  Time since last request: 0.000054 seconds.
+  path: Assets/Prefabs/ganyu_blend Variant.prefab
+  artifactKey: Guid(d8d3f6e8776038943a623cab4ddd6157) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/ganyu_blend Variant.prefab using Guid(d8d3f6e8776038943a623cab4ddd6157) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fcb01a81d4357fced3282d285ed0cf7b') in 0.202797 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1727
+========================================================================
+Received Import Request.
+  Time since last request: 0.885405 seconds.
+  path: Assets/Characters/yoimiya
+  artifactKey: Guid(b2d56559e0ea0bb4db5fff0efee14b75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/yoimiya using Guid(b2d56559e0ea0bb4db5fff0efee14b75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2219e09543adf74b7ddc36f3a64aa1e7') in 0.000963 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.039897 seconds.
+  path: Assets/Characters/yoimiya/yoimiya_test.fbx
+  artifactKey: Guid(d878da9d2ff3ec74b840171e240c3f07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/yoimiya/yoimiya_test.fbx using Guid(d878da9d2ff3ec74b840171e240c3f07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '58c066456c6ff259435205d1d0c4bc33') in 0.963157 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1014
+========================================================================
+Received Import Request.
+  Time since last request: 112.877713 seconds.
+  path: Assets/Characters/raiden
+  artifactKey: Guid(ff26ba67ac04b0840be57378f1bfd5c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/raiden using Guid(ff26ba67ac04b0840be57378f1bfd5c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4ae40e375188831909079793d11ddda2') in 0.001039 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.062828 seconds.
+  path: Assets/Characters/raiden/shogun_fb.fbx
+  artifactKey: Guid(4f14bd01420a5d4418a198e3fa7dc3c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/raiden/shogun_fb.fbx using Guid(4f14bd01420a5d4418a198e3fa7dc3c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3f1232b50c42c20c0433bdc88ff70bbe') in 0.386956 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 957
+========================================================================
+Received Import Request.
+  Time since last request: 10.056742 seconds.
+  path: Assets/Characters/Animation/Female Laying Pose.fbx
+  artifactKey: Guid(0d28cccfce2b34d4f909b4378ec8897f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/Animation/Female Laying Pose.fbx using Guid(0d28cccfce2b34d4f909b4378ec8897f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd36dfd28b4ea42a92bdbb2dff8ad0798') in 0.169525 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 147
+========================================================================
+Received Import Request.
+  Time since last request: 0.001331 seconds.
+  path: Assets/Characters/Animation/Female Walk.fbx
+  artifactKey: Guid(2c2fd5bccf45f5545af8b2eedbc25115) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/Animation/Female Walk.fbx using Guid(2c2fd5bccf45f5545af8b2eedbc25115) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aac243604eea860751f5646e0c2cde14') in 0.248838 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 147
+========================================================================
+Received Import Request.
+  Time since last request: 8.363579 seconds.
+  path: Assets/Characters/barbara_summ/barbara_summ.fbx
+  artifactKey: Guid(b4dd04a05620b1543ae5f9ddad77bc5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/barbara_summ/barbara_summ.fbx using Guid(b4dd04a05620b1543ae5f9ddad77bc5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dc3732a3a3b899bba60dde005a0c9412') in 0.404893 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 757
+========================================================================
+Received Import Request.
+  Time since last request: 1.118942 seconds.
+  path: Assets/Characters/ganyu/ganyu_blend.fbx
+  artifactKey: Guid(5c497d32868bc374e9395eea549fee05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/ganyu/ganyu_blend.fbx using Guid(5c497d32868bc374e9395eea549fee05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd692de988c405bf7cd1e227b3285e0fb') in 0.462666 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 869
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 5.39 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 1 unused Assets / (0.8 KB). Loaded Objects now: 3577.
+Memory consumption went from 75.6 MB to 75.6 MB.
+Total: 5.062300 ms (FindLiveObjects: 0.295400 ms CreateObjectMapping: 0.246500 ms MarkObjects: 4.492700 ms  DeleteObjects: 0.025900 ms)
+
+Prepare: number of updated asset objects reloaded= 0
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -176,113 +283,73 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 598493.329102 seconds.
-  path: Assets/Prefabs
-  artifactKey: Guid(83b880f0660ed3943ac322761605db97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs using Guid(83b880f0660ed3943ac322761605db97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '43549ca0be2d8798b607d63e0d74465d') in 0.006064 seconds
+  Time since last request: 786.480979 seconds.
+  path: Assets/Characters/ganyu/textures
+  artifactKey: Guid(e1adc2246a943d840b4a475dfc8387da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/ganyu/textures using Guid(e1adc2246a943d840b4a475dfc8387da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f28074f123704744af965a4985f56b3c') in 0.007097 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 0
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000032 seconds.
-  path: Assets/Prefabs/shogun_fb Variant.prefab
-  artifactKey: Guid(088d3bcad4244d247a8c35be5cef0421) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/shogun_fb Variant.prefab using Guid(088d3bcad4244d247a8c35be5cef0421) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '39c1b61d0b543dc6802badf92fbf8862') in 0.972417 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1897
-========================================================================
-Received Import Request.
-  Time since last request: 0.000027 seconds.
-  path: Assets/Prefabs/barbara_summ Variant.prefab
-  artifactKey: Guid(07da3ee02fedb5743b86a60d6b7b3fa6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/barbara_summ Variant.prefab using Guid(07da3ee02fedb5743b86a60d6b7b3fa6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c4fcecfc5f1b6820ab754e6b7292386') in 0.590513 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1495
-========================================================================
-Received Import Request.
-  Time since last request: 0.000042 seconds.
-  path: Assets/Prefabs/ganyu_blend Variant.prefab
-  artifactKey: Guid(d8d3f6e8776038943a623cab4ddd6157) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/ganyu_blend Variant.prefab using Guid(d8d3f6e8776038943a623cab4ddd6157) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '24e075ecb44fe9ac177f56fdccaaa667') in 0.902148 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1727
-========================================================================
-Received Import Request.
-  Time since last request: 13.407452 seconds.
-  path: Assets/raiden/shogun_fb.fbx
+  Time since last request: 42.677812 seconds.
+  path: Assets/Characters/raiden/shogun_fb.fbx
   artifactKey: Guid(4f14bd01420a5d4418a198e3fa7dc3c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/raiden/shogun_fb.fbx using Guid(4f14bd01420a5d4418a198e3fa7dc3c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ddaf851fdb23f4d1f61d1375239ae8d6') in 0.963198 seconds
+Start importing Assets/Characters/raiden/shogun_fb.fbx using Guid(4f14bd01420a5d4418a198e3fa7dc3c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '39919a72156c541c409dc42415b35451') in 0.470250 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 957
+Number of asset objects unloaded after import = 959
 ========================================================================
 Received Import Request.
-  Time since last request: 6.858626 seconds.
-  path: Assets/raiden/Textures
-  artifactKey: Guid(670340a74c2829347a91979a32a1dd38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/raiden/Textures using Guid(670340a74c2829347a91979a32a1dd38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e36b77697d9fd17d5d09e622b42efea2') in 0.001129 seconds
+  Time since last request: 38.935953 seconds.
+  path: Assets/Characters/raiden/shogun_fb.fbx
+  artifactKey: Guid(4f14bd01420a5d4418a198e3fa7dc3c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/raiden/shogun_fb.fbx using Guid(4f14bd01420a5d4418a198e3fa7dc3c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '638d5d7ce849dbd7379db51165ce6301') in 0.338274 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
+Number of asset objects unloaded after import = 959
 ========================================================================
 Received Import Request.
-  Time since last request: 0.514871 seconds.
-  path: Assets/raiden/Materials
-  artifactKey: Guid(4383c92dd6ccb694c9a0943f675e4d35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/raiden/Materials using Guid(4383c92dd6ccb694c9a0943f675e4d35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5b5648076f948f6a5fa124ec84f22c54') in 0.001006 seconds
+  Time since last request: 75.166785 seconds.
+  path: Assets/Characters/raiden/shogun_fb.fbx
+  artifactKey: Guid(4f14bd01420a5d4418a198e3fa7dc3c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/raiden/shogun_fb.fbx using Guid(4f14bd01420a5d4418a198e3fa7dc3c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '18929feac397c1315017af51c3743195') in 0.607328 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
+Number of asset objects unloaded after import = 959
 ========================================================================
 Received Import Request.
-  Time since last request: 0.197172 seconds.
-  path: Assets/raiden/Materials/Cara.mat
-  artifactKey: Guid(1ea9455bb8230504db6a1d303965f1ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/raiden/Materials/Cara.mat using Guid(1ea9455bb8230504db6a1d303965f1ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '13a7513244927c9befe44b8ce7692cb2') in 0.034670 seconds
+  Time since last request: 44.514220 seconds.
+  path: Assets/Characters/raiden/shogun_fb.fbx
+  artifactKey: Guid(4f14bd01420a5d4418a198e3fa7dc3c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/raiden/shogun_fb.fbx using Guid(4f14bd01420a5d4418a198e3fa7dc3c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b32032f5799d35241183effa0f2e3617') in 0.860096 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
+Number of asset objects unloaded after import = 959
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000174 seconds.
-  path: Assets/raiden/Materials/Ropa.mat
-  artifactKey: Guid(cc76240df0dd6b243860280f1c0a4a7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/raiden/Materials/Ropa.mat using Guid(cc76240df0dd6b243860280f1c0a4a7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2378b61526f70186eed91b8d8895b46a') in 0.055358 seconds
+  Time since last request: 125.115043 seconds.
+  path: Assets/Characters/ganyu/ganyu_blend.fbx
+  artifactKey: Guid(5c497d32868bc374e9395eea549fee05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/ganyu/ganyu_blend.fbx using Guid(5c497d32868bc374e9395eea549fee05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a79661c62518510d704d4c75962f5840') in 0.428529 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
+Number of asset objects unloaded after import = 871
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000935 seconds.
-  path: Assets/raiden/Materials/Pelo.mat
-  artifactKey: Guid(5eafcdcaff52c9541a55ed5ea660dab9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/raiden/Materials/Pelo.mat using Guid(5eafcdcaff52c9541a55ed5ea660dab9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4a2136165724eff60879cc63a2d37283') in 0.097149 seconds
+  Time since last request: 74.319520 seconds.
+  path: Assets/Characters/ganyu/ganyu_blend.fbx
+  artifactKey: Guid(5c497d32868bc374e9395eea549fee05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/ganyu/ganyu_blend.fbx using Guid(5c497d32868bc374e9395eea549fee05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8fe6bc3f4a6f8e21693382eae1e4d29d') in 0.300302 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
+Number of asset objects unloaded after import = 871
 ========================================================================
 Received Import Request.
-  Time since last request: 22.829109 seconds.
-  path: Assets/Personajes
-  artifactKey: Guid(5ae44f174d5ea294089f92782a2b046e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Personajes using Guid(5ae44f174d5ea294089f92782a2b046e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '62ad4dae0cffa08daa43fa7ef7f50f01') in 0.002492 seconds
+  Time since last request: 40.980853 seconds.
+  path: Assets/Characters/ganyu/ganyu_blend.fbx
+  artifactKey: Guid(5c497d32868bc374e9395eea549fee05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/ganyu/ganyu_blend.fbx using Guid(5c497d32868bc374e9395eea549fee05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fea55abc9f2e41fca14957aa96c65894') in 0.668467 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
+Number of asset objects unloaded after import = 871
 ========================================================================
 Received Import Request.
-  Time since last request: 3.357714 seconds.
-  path: Assets/ganyu
-  artifactKey: Guid(fa020c32a70b06648b4b58af549e5523) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ganyu using Guid(fa020c32a70b06648b4b58af549e5523) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8b7298da13fe47b0eb2466ffddcebe6e') in 0.001405 seconds
+  Time since last request: 6.626505 seconds.
+  path: Assets/Characters/ganyu/ganyu_blend.fbx
+  artifactKey: Guid(5c497d32868bc374e9395eea549fee05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/ganyu/ganyu_blend.fbx using Guid(5c497d32868bc374e9395eea549fee05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '21e39c538adfbbec9f3c0d0fa37fd571') in 0.471981 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 32.507189 seconds.
-  path: Assets/Character
-  artifactKey: Guid(5ae44f174d5ea294089f92782a2b046e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Character using Guid(5ae44f174d5ea294089f92782a2b046e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f394adf558295f1758c04b0ae4ab31a5') in 0.000714 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 93.183455 seconds.
-  path: Assets/Characters
-  artifactKey: Guid(5ae44f174d5ea294089f92782a2b046e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Characters using Guid(5ae44f174d5ea294089f92782a2b046e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6571ded54a83e2cf92f5a20ebc2bda13') in 0.000973 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
+Number of asset objects unloaded after import = 871
