@@ -15,7 +15,7 @@ C:/Users/gaboe/OneDrive/Escritorio/Proyectos Personales/RA_GI_3D
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-62017
+62577
 Successfully changed project path to: C:/Users/gaboe/OneDrive/Escritorio/Proyectos Personales/RA_GI_3D
 C:/Users/gaboe/OneDrive/Escritorio/Proyectos Personales/RA_GI_3D
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -49,11 +49,11 @@ C:/Users/gaboe/OneDrive/Escritorio/Proyectos Personales/RA_GI_3D
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [11652] Host "[IP] 192.168.1.87 [Port] 0 [Flags] 2 [Guid] 3308117871 [EditorId] 3308117871 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-86D8R87) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [7712] Host "[IP] 192.168.1.87 [Port] 0 [Flags] 2 [Guid] 1575868882 [EditorId] 1575868882 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-86D8R87) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [11652] Host "[IP] 192.168.1.87 [Port] 0 [Flags] 2 [Guid] 3308117871 [EditorId] 3308117871 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-86D8R87) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [7712] Host "[IP] 192.168.1.87 [Port] 0 [Flags] 2 [Guid] 1575868882 [EditorId] 1575868882 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-86D8R87) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
-Refreshing native plugins compatible for Editor in 31.21 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 29.12 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2022.3.5f1 (9674261d40ee)
 [Subsystems] Discovering subsystems at path D:/ProgramasProgramar/Unity Editor/2022.3.5f1/Editor/Data/Resources/UnitySubsystems
@@ -69,44 +69,44 @@ Initialize mono
 Mono path[0] = 'D:/ProgramasProgramar/Unity Editor/2022.3.5f1/Editor/Data/Managed'
 Mono path[1] = 'D:/ProgramasProgramar/Unity Editor/2022.3.5f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'D:/ProgramasProgramar/Unity Editor/2022.3.5f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56920
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56412
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: D:/ProgramasProgramar/Unity Editor/2022.3.5f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.015143 seconds.
-- Loaded All Assemblies, in  1.766 seconds
+Registered in 0.009457 seconds.
+- Loaded All Assemblies, in  0.731 seconds
 Native extension for WindowsStandalone target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.555 seconds
-Domain Reload Profiling: 3321ms
-	BeginReloadAssembly (502ms)
+- Finished resetting the current domain, in  0.786 seconds
+Domain Reload Profiling: 1516ms
+	BeginReloadAssembly (177ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (6ms)
-	RebuildCommonClasses (162ms)
-	RebuildNativeTypeToScriptingClass (37ms)
-	initialDomainReloadingComplete (297ms)
-	LoadAllAssembliesAndSetupDomain (767ms)
-		LoadAssemblies (494ms)
+		CreateAndSetChildDomain (2ms)
+	RebuildCommonClasses (74ms)
+	RebuildNativeTypeToScriptingClass (28ms)
+	initialDomainReloadingComplete (140ms)
+	LoadAllAssembliesAndSetupDomain (311ms)
+		LoadAssemblies (173ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (755ms)
-			TypeCache.Refresh (753ms)
-				TypeCache.ScanAssembly (709ms)
+		AnalyzeDomain (306ms)
+			TypeCache.Refresh (304ms)
+				TypeCache.ScanAssembly (280ms)
 			ScanForSourceGeneratedMonoScriptInfo (1ms)
 			ResolveRequiredComponents (1ms)
-	FinalizeReload (1557ms)
+	FinalizeReload (787ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (1280ms)
+		SetupLoadedEditorAssemblies (662ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (35ms)
-			SetLoadedEditorAssemblies (50ms)
+			InitializePlatformSupportModulesInManaged (16ms)
+			SetLoadedEditorAssemblies (17ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (7ms)
-			ProcessInitializeOnLoadAttributes (919ms)
-			ProcessInitializeOnLoadMethodAttributes (270ms)
+			BeforeProcessingInitializeOnLoad (4ms)
+			ProcessInitializeOnLoadAttributes (328ms)
+			ProcessInitializeOnLoadMethodAttributes (296ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -116,51 +116,51 @@ Worker process is ready to serve import requests
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image C:\Users\gaboe\OneDrive\Escritorio\Proyectos Personales\RA_GI_3D\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image C:\Users\gaboe\OneDrive\Escritorio\Proyectos Personales\RA_GI_3D\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-- Loaded All Assemblies, in  3.349 seconds
-Refreshing native plugins compatible for Editor in 5.55 ms, found 3 plugins.
+- Loaded All Assemblies, in  1.532 seconds
+Refreshing native plugins compatible for Editor in 7.74 ms, found 3 plugins.
 Native extension for WindowsStandalone target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  2.469 seconds
-Domain Reload Profiling: 5814ms
-	BeginReloadAssembly (980ms)
+- Finished resetting the current domain, in  1.316 seconds
+Domain Reload Profiling: 2847ms
+	BeginReloadAssembly (301ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (36ms)
+		DisableScriptedObjects (20ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (380ms)
-	RebuildCommonClasses (200ms)
-	RebuildNativeTypeToScriptingClass (43ms)
-	initialDomainReloadingComplete (171ms)
-	LoadAllAssembliesAndSetupDomain (1949ms)
-		LoadAssemblies (1440ms)
+		CreateAndSetChildDomain (43ms)
+	RebuildCommonClasses (73ms)
+	RebuildNativeTypeToScriptingClass (26ms)
+	initialDomainReloadingComplete (87ms)
+	LoadAllAssembliesAndSetupDomain (1039ms)
+		LoadAssemblies (498ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (830ms)
-			TypeCache.Refresh (786ms)
-				TypeCache.ScanAssembly (759ms)
-			ScanForSourceGeneratedMonoScriptInfo (32ms)
-			ResolveRequiredComponents (12ms)
-	FinalizeReload (2470ms)
+		AnalyzeDomain (676ms)
+			TypeCache.Refresh (640ms)
+				TypeCache.ScanAssembly (611ms)
+			ScanForSourceGeneratedMonoScriptInfo (27ms)
+			ResolveRequiredComponents (8ms)
+	FinalizeReload (1320ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (1836ms)
+		SetupLoadedEditorAssemblies (919ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (14ms)
-			SetLoadedEditorAssemblies (50ms)
+			InitializePlatformSupportModulesInManaged (10ms)
+			SetLoadedEditorAssemblies (9ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (352ms)
-			ProcessInitializeOnLoadAttributes (1321ms)
-			ProcessInitializeOnLoadMethodAttributes (92ms)
-			AfterProcessingInitializeOnLoad (6ms)
+			BeforeProcessingInitializeOnLoad (132ms)
+			ProcessInitializeOnLoadAttributes (716ms)
+			ProcessInitializeOnLoadMethodAttributes (46ms)
+			AfterProcessingInitializeOnLoad (7ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (43ms)
+		AwakeInstancesAfterBackupRestoration (17ms)
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.19 seconds
-Refreshing native plugins compatible for Editor in 9.05 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 10.36 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 3066 Unused Serialized files (Serialized files now loaded: 0)
 Unloading 31 unused Assets / (56.4 KB). Loaded Objects now: 3530.
-Memory consumption went from 116.3 MB to 116.2 MB.
-Total: 7.055600 ms (FindLiveObjects: 0.673500 ms CreateObjectMapping: 2.277400 ms MarkObjects: 3.998700 ms  DeleteObjects: 0.104500 ms)
+Memory consumption went from 116.2 MB to 116.1 MB.
+Total: 5.622300 ms (FindLiveObjects: 0.873700 ms CreateObjectMapping: 0.421700 ms MarkObjects: 4.214700 ms  DeleteObjects: 0.111000 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
@@ -175,44 +175,28 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 170416.285291 seconds.
-  path: Assets/Characters/mona/mona.fbx
-  artifactKey: Guid(17d5e8adca6469647afc8366d74b988a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Characters/mona/mona.fbx using Guid(17d5e8adca6469647afc8366d74b988a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e134e85385e954854d7576b5ea7dd404') in 1.334809 seconds
+  Time since last request: 171972.780419 seconds.
+  path: Assets/Characters/Animation/Female Walk.fbx
+  artifactKey: Guid(2c2fd5bccf45f5545af8b2eedbc25115) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/Animation/Female Walk.fbx using Guid(2c2fd5bccf45f5545af8b2eedbc25115) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a6ad31e0ffde057bcdd8e22d0c452720') in 0.519547 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 729
+Number of asset objects unloaded after import = 147
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000040 seconds.
-  path: Assets/Characters/ganyu/materials/Ropa.mat
-  artifactKey: Guid(853c3374fac20144889eac0384b4d4f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Characters/ganyu/materials/Ropa.mat using Guid(853c3374fac20144889eac0384b4d4f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3cb4403359997cf936a6b4b3d8e11580') in 0.090609 seconds
+  Time since last request: 26.127564 seconds.
+  path: Assets/Characters/Animation/Snake Hip Hop Dance.fbx
+  artifactKey: Guid(7359757a83a40d749b8fbfdeb6c33712) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/Animation/Snake Hip Hop Dance.fbx using Guid(7359757a83a40d749b8fbfdeb6c33712) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4275def88c594baeda9bd050524e44a3') in 0.148240 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 6
-========================================================================
-Received Import Request.
-  Time since last request: 0.002201 seconds.
-  path: Assets/Characters/ganyu/materials/Pelo.mat
-  artifactKey: Guid(23a12171cec2fef4b87fe967d275e505) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Characters/ganyu/materials/Pelo.mat using Guid(23a12171cec2fef4b87fe967d275e505) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a1d6e89aa98283e2a9a590f396f77bb1') in 0.080312 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/Characters/ganyu/ganyu_blend.fbx
-  artifactKey: Guid(5c497d32868bc374e9395eea549fee05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Characters/ganyu/ganyu_blend.fbx using Guid(5c497d32868bc374e9395eea549fee05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '82ce3be3e5443f062e75b2168c90f27c') in 0.155592 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 871
+Number of asset objects unloaded after import = 145
 ========================================================================
 Received Prepare
-Refreshing native plugins compatible for Editor in 4.70 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 8.86 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 2 unused Assets / (2.2 KB). Loaded Objects now: 3576.
-Memory consumption went from 74.5 MB to 74.5 MB.
-Total: 4.757300 ms (FindLiveObjects: 0.286600 ms CreateObjectMapping: 0.255400 ms MarkObjects: 4.136700 ms  DeleteObjects: 0.077300 ms)
+Unloading 1 unused Assets / (0.8 KB). Loaded Objects now: 3576.
+Memory consumption went from 74.2 MB to 74.2 MB.
+Total: 8.606600 ms (FindLiveObjects: 0.325300 ms CreateObjectMapping: 0.280000 ms MarkObjects: 7.979400 ms  DeleteObjects: 0.020900 ms)
 
 Prepare: number of updated asset objects reloaded= 0
 AssetImportParameters requested are different than current active one (requested -> active):
@@ -229,73 +213,73 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 31.615659 seconds.
-  path: Assets/Characters/mona/mona.fbx
-  artifactKey: Guid(17d5e8adca6469647afc8366d74b988a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Characters/mona/mona.fbx using Guid(17d5e8adca6469647afc8366d74b988a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7596b67313af4a7d1d28cf747ff576dc') in 0.395253 seconds
+  Time since last request: 11.994575 seconds.
+  path: Assets/Characters/Animation/Female Standing Pose.fbx
+  artifactKey: Guid(d278e358031215c48b51dc9064abb39d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/Animation/Female Standing Pose.fbx using Guid(d278e358031215c48b51dc9064abb39d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b03ce367e78de2836688768b387ff017') in 0.228427 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 729
+Number of asset objects unloaded after import = 145
 ========================================================================
 Received Import Request.
-  Time since last request: 92.277027 seconds.
-  path: Assets/Characters/mona/mona.fbx
-  artifactKey: Guid(17d5e8adca6469647afc8366d74b988a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Characters/mona/mona.fbx using Guid(17d5e8adca6469647afc8366d74b988a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1bb428be8524345a5846e9f6f5761f7a') in 0.306505 seconds
+  Time since last request: 29.048412 seconds.
+  path: Assets/Characters/Animation/Female Standing Pose (1).fbx
+  artifactKey: Guid(3c2218c8f4067ee4ebd909c0709f15cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/Animation/Female Standing Pose (1).fbx using Guid(3c2218c8f4067ee4ebd909c0709f15cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '097ad35f92d37a88b064630b022f20a9') in 0.167795 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 729
+Number of asset objects unloaded after import = 145
 ========================================================================
 Received Import Request.
-  Time since last request: 39.733735 seconds.
-  path: Assets/Characters/mona/mona.fbx
-  artifactKey: Guid(17d5e8adca6469647afc8366d74b988a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Characters/mona/mona.fbx using Guid(17d5e8adca6469647afc8366d74b988a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b18449c28cb8e98a30dfcbbe0692d6b4') in 0.419908 seconds
+  Time since last request: 11.934861 seconds.
+  path: Assets/Characters/Animation/Female Standing Pose 1.fbx
+  artifactKey: Guid(3c2218c8f4067ee4ebd909c0709f15cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/Animation/Female Standing Pose 1.fbx using Guid(3c2218c8f4067ee4ebd909c0709f15cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9fb02d187a617382ffae08b1933dbeb5') in 0.314436 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 729
+Number of asset objects unloaded after import = 145
 ========================================================================
 Received Import Request.
-  Time since last request: 18.854171 seconds.
-  path: Assets/Characters/klee/klee_fb.fbx
-  artifactKey: Guid(eeca31d48be6bd941ac3698a1be3a949) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Characters/klee/klee_fb.fbx using Guid(eeca31d48be6bd941ac3698a1be3a949) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '23d101aa575aa19ca468dcbd1ebe9032') in 0.417689 seconds
+  Time since last request: 71.557911 seconds.
+  path: Assets/Characters/Animation/Female Walk (2).fbx
+  artifactKey: Guid(1db7e398127366f4498b49ea9f5d6268) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/Animation/Female Walk (2).fbx using Guid(1db7e398127366f4498b49ea9f5d6268) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7399b62d817f3be4479b4ea7a05a8013') in 0.139672 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 824
+Number of asset objects unloaded after import = 145
 ========================================================================
 Received Import Request.
-  Time since last request: 7.647378 seconds.
-  path: Assets/Characters/klee/klee_fb.fbx
-  artifactKey: Guid(eeca31d48be6bd941ac3698a1be3a949) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Characters/klee/klee_fb.fbx using Guid(eeca31d48be6bd941ac3698a1be3a949) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4e6ce8af1ba515285edbd50149ec53a1') in 0.457913 seconds
+  Time since last request: 8.641211 seconds.
+  path: Assets/Characters/Animation/Female Walk.fbx
+  artifactKey: Guid(1db7e398127366f4498b49ea9f5d6268) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/Animation/Female Walk.fbx using Guid(1db7e398127366f4498b49ea9f5d6268) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '96fe201dda871efdcaf2a664a4ab7e9a') in 0.187784 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 824
+Number of asset objects unloaded after import = 145
 ========================================================================
 Received Import Request.
-  Time since last request: 134.797989 seconds.
-  path: Assets/Characters/klee/klee_fb.fbx
-  artifactKey: Guid(eeca31d48be6bd941ac3698a1be3a949) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Characters/klee/klee_fb.fbx using Guid(eeca31d48be6bd941ac3698a1be3a949) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ba375cfabddfbe661d096b42c29140a') in 0.192623 seconds
+  Time since last request: 60.489837 seconds.
+  path: Assets/Characters/Animation/Snake Hip Hop Dance.fbx
+  artifactKey: Guid(7359757a83a40d749b8fbfdeb6c33712) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/Animation/Snake Hip Hop Dance.fbx using Guid(7359757a83a40d749b8fbfdeb6c33712) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '947a1fbc2246cbd73e97ac156be1da9e') in 0.177337 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 824
+Number of asset objects unloaded after import = 147
 ========================================================================
 Received Import Request.
-  Time since last request: 140.151552 seconds.
-  path: Assets/Characters/klee/klee_fb.fbx
-  artifactKey: Guid(eeca31d48be6bd941ac3698a1be3a949) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Characters/klee/klee_fb.fbx using Guid(eeca31d48be6bd941ac3698a1be3a949) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4dedd1d5bb0221e3d8db3122494ff0cf') in 0.908058 seconds
+  Time since last request: 7.166148 seconds.
+  path: Assets/Characters/Animation/Female Walk.fbx
+  artifactKey: Guid(1db7e398127366f4498b49ea9f5d6268) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/Animation/Female Walk.fbx using Guid(1db7e398127366f4498b49ea9f5d6268) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3cabf0b0f615d57213509d13affbe26c') in 0.146873 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 824
+Number of asset objects unloaded after import = 147
 ========================================================================
 Received Import Request.
-  Time since last request: 50.417797 seconds.
-  path: Assets/Prefabs/klee_fb Variant.prefab
-  artifactKey: Guid(f78a7e45eb60ae544bf6dccf44d3b640) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/klee_fb Variant.prefab using Guid(f78a7e45eb60ae544bf6dccf44d3b640) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b7e081c923acdb4007f87f0e621b8a19') in 0.291065 seconds
+  Time since last request: 7.188444 seconds.
+  path: Assets/Characters/Animation/Female Standing Pose 1.fbx
+  artifactKey: Guid(3c2218c8f4067ee4ebd909c0709f15cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/Animation/Female Standing Pose 1.fbx using Guid(3c2218c8f4067ee4ebd909c0709f15cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '24f0142545b3112b395f5e9222d1f41b') in 0.772018 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1641
+Number of asset objects unloaded after import = 147
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000026 seconds.
-  path: Assets/Prefabs/mona Variant.prefab
-  artifactKey: Guid(59fe006b13f26df46ae6f82af2a24ae9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/mona Variant.prefab using Guid(59fe006b13f26df46ae6f82af2a24ae9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5a778c7e6fb9cd8cf8a52d92d26f4de1') in 0.344263 seconds
+  Time since last request: 4.535976 seconds.
+  path: Assets/Characters/Animation/Female Standing Pose.fbx
+  artifactKey: Guid(d278e358031215c48b51dc9064abb39d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/Animation/Female Standing Pose.fbx using Guid(d278e358031215c48b51dc9064abb39d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5a0882c792302384fa5077420e7f83fe') in 0.142099 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1452
+Number of asset objects unloaded after import = 147
